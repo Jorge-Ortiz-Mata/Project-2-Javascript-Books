@@ -1,0 +1,478 @@
+
+/*                      STYLESHEET File.                          */
+/*                      Project 02. JAVASCRIPT                    */
+
+/* On this file, you'll find the design needed to build this project */
+
+/* --------------------------------------------------- ALL --------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+/* --------------------------------------------------- HTML --------------------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* --------------------------------------------------- NAV SECTION --------------------------------------------- */
+
+.navSection {
+    background-image: url("images/libros3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #000000c6;
+    background-blend-mode: soft-light;
+    height: 750px;
+}
+
+/* ------------------------------ SUPERIOR PART ---------------------------*/
+
+.partSuperior{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.logoSection {
+    display:flex
+}
+
+.logoImage {
+    width: auto;
+    height: auto;
+}
+
+.logoName {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3px;
+}
+
+.menuSection {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+}
+
+.unorderList {
+    display: flex;
+}
+
+.unorderList li {
+    list-style: none;
+}
+
+.unorderList li a {
+    margin: 20px;
+    text-decoration: none;
+}
+.unorderList li a i {
+    margin: 5px;
+}
+
+/* ----------------------------- INFERIOR PART -----------------------------*/
+
+.partInferior{
+    height: auto;
+    display: grid;
+    margin-top: 40px;
+    margin-bottom: auto;
+}
+
+.exploreSection {
+    height: auto;
+    text-align: center;
+}
+
+.exploreImage, .exploreTitle, .exploreDescription, .exploreLink {
+    padding: 15px;
+
+}
+
+.exploreTitle {
+    font-size: 35px;
+}
+
+.exploreImage {
+    width: 500px;
+}
+
+.exploreButton {
+    color: #ffffff;
+    background-color: #002205;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 200px;
+}
+
+.exploreButton:hover {
+    background-color: #c6ffcf;
+}
+.exploreButton:hover {
+    color: #003408;
+}
+
+/* --------------------------------------------------- FIRST SECTION --------------------------------------------- */
+
+.firstSection {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.firstTitle {
+    color: #000000;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* --------------------------------------------------- SECOND SECTION --------------------------------------------- */
+
+ .secondSection {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+ }
+
+.secondTitle {
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* ------ First book. ------- */
+
+ .bookSection1 {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .bookContent1 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+ }
+
+ .bookTitle1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-decoration: underline;
+ }
+
+ .bookSinopsis1 {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+ }
+
+.bookImg1 {
+    box-shadow: 0px 0px 20px 5px #ffffff;
+    width: 350px;
+    margin-right: auto;
+}
+
+/* ------ Button show more. ------- */
+
+.bookButton {
+    color: #ffffff;
+    background-color: #002205;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 150px;
+}
+
+.bookButton:hover {
+    color: #003408;
+    background-color: #c6ffcf;
+}
+
+/* ------ Second book. ------- */
+
+.bookSection2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    flex-direction: row-reverse;
+ }
+ 
+ .bookContent2 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+ }
+
+ .bookTitle2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-decoration: underline;
+ }
+
+ .bookSinopsis2 {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+ }
+
+.bookImg2 {
+    box-shadow: 0px 0px 20px 5px #ffffff;
+    width: 350px;
+    margin-left: auto;
+}
+
+/* ------ Third book. ------- */
+
+.bookSection3 {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    justify-content: space-between;
+ }
+ 
+ .bookContent3 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+ }
+
+ .bookTitle3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-decoration: underline;
+ }
+
+ .bookSinopsis3 {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+ }
+
+.bookImg3 {
+    box-shadow: 0px 0px 20px 5px #ffffff;
+    width: 350px;
+    margin-right: auto;
+}
+
+/* --------------------------------------------------- THIRD SECTION --------------------------------------------- */
+
+.thirdSection {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.thirdTitle {
+    color: #000000;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* --------------------------------------------------- FOURTH SECTION --------------------------------------------- */
+
+.forthSection { 
+    background-image: url('images/Contacto.jpg'); 
+    background-position: center center;
+    background-color: #000000c6;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+}
+
+.forthLeft {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.forthRight {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.forthTitle {
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.forthParragph {
+    width: 400px;
+    height: auto;
+    margin-top: 150px;
+    margin-bottom: auto;
+    font-size: 22px;
+    text-align: center;
+}
+
+.forthImages {
+    margin-top: auto;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.forthImg {
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.forthImg:hover {
+    box-shadow: 0px 0px 10px 2px #ffffff;
+}
+
+/* --------------------------------------------------- FIFTH SECTION --------------------------------------------- */
+
+.fifthSection {
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.fifthParragph1 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fifthParragph2 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: auto;
+    text-align: right;
+    margin-right: 120px;
+    margin-left: auto;
+}
+
+/* --------------------------------------------------- RETURN SECTION --------------------------------------------- */
+
+
+.returnSection {
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.returnSectionStart {
+    display: none;
+}
+
+.returndivButton {
+    text-align: right;
+    width: auto;
+    height: auto;
+    display: flex;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.returnButton {
+    color: #ffffff;
+    background-color: #233b01;
+    width: 100px;
+    margin-left: auto;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px 2px #ffffff;
+}
+
+.returnButton:hover {
+    color: #233b01;
+    background-color: #ffffff;
+}
+
+/* --------------------------------------------------- FOOTER SECTION --------------------------------------------- */
+
+.footerSection {
+    height: 80px;
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+}
+
+.footerText {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+}
+
+/* --------------------------------------------------- SCROLL PROPERTIES. --------------------------------------------- */
+
+.partSuperiorScoll {
+    background-color: #424242;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.partSuperiorScoll .logoImage {
+    display: none;
+}
